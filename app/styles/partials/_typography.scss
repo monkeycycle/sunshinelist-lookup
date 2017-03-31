@@ -1,0 +1,15 @@
+@import 'mixins';
+
+body {
+  color: $colour-primary-text;
+  font-family: $font-serif-brand-regular;
+  @include fontSize(16);
+  @include lineHeight(1.5);
+  // @include letterSpacing(0.5);
+}
+
+@include breakpoint(md) {
+  body {
+    @include fontSize(18);
+  }
+}

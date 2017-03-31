@@ -1,0 +1,115 @@
+$article-width: 620px;
+$desktop-width: 1024px;
+$desktop-sidebar-width: 350px;
+// -----------------------------------
+// * Colours *
+// -----------------------------------
+$light-gray: #f5f5f5;//#ECEBE9;//custom;
+
+$sac-color: #c7a275;
+$sa-color: #ad485d;
+$a-color: #AACBD0;
+$pop-color: #abcbd0;
+
+
+//divergenet colour palette
+// $lowest-color: #6b45a8;
+// $low-color: #81cad2;
+// $medium-color: #e9dba8;
+// $high-color: #f4bc33;
+// $highest-color: #c35151;
+
+//divergenet colour palette
+$lowest-color: #1f4969;
+$low-color: #709aa3;
+$medium-color: #f0eea5;
+$high-color: #f4bc33;
+$highest-color: #c35151;
+
+
+
+// Primary
+$colour-primary-red:		        #CE2A23;
+$colour-primary-text:               #333;
+$colour-primary-white:              #fff;
+
+// Shades of black/grey
+$colour-black:                      #000;
+$colour-grey-midlight:              #777;
+$colour-grey-light:                 #DDD;
+
+// Might not need to include these
+$colour-primary-grey-dark:			#525252;
+$colour-primary-grey-light:     	#ABB2B6;
+
+// Shades of black/grey
+$colour-grey-verydark:         		#222;
+$colour-grey-dark:             	 	#333;
+$colour-grey-middark:           	#444;
+$colour-grey:                   	#555;
+// $colour-grey-midlight:          	#999;
+// $colour-grey-light:             	#ccc;
+$colour-grey-lighter:           	#eee;
+$colour-grey-verylight:         	#f5f5f5;
+$colour-grey-offwhite:          	#fafafa;
+
+// Secondary
+$colour-secondary-red:           	#FF0000;
+$colour-secondary-green:         	#339933;
+$colour-secondary-green-light:   	#65BF96;
+$colour-secondary-cream:         	#F8F4EE;
+
+
+// -----------------------------------
+// * Buttons *
+// -----------------------------------
+
+$btn-font-weight: normal;
+$btn-default-colour: $colour-primary-white;
+$btn-default-bg: $colour-grey-middark;
+$btn-primary: $colour-primary-red;
+
+
+// -----------------------------------
+// * Typography *
+// -----------------------------------
+
+// Fallback fonts
+$sans-fallback:						 "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif-fallback: 					 Georgia, "Times New Roman", serif;
+
+// Base fonts
+$font-sans: 						 "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-serif: 						 Georgia, "Times New Roman", Times, serif;
+
+// Pratt fonts
+$font-serif-brand-regular: 			 "PrattRegular", $serif-fallback;
+$font-serif-brand-heavy: 			 "PrattHeavy", $serif-fallback;
+$font-serif-brand-bold: 			 "PrattBold", $serif-fallback;
+$font-serif-brand-micro: 			 "PrattMicro", $serif-fallback;
+
+$font-serif-brand-regular-italic:    "PrattItalic", $serif-fallback;
+$font-serif-brand-heavy-italic: 	 "PrattHeavyItalic", $serif-fallback;
+$font-serif-brand-bold-italic: 		 "PrattBoldItalic", $serif-fallback;
+
+// GM Sans fonts
+$font-sans-brand-regular: 			"GMSans", $sans-fallback;
+$font-sans-brand-bold: 				"GMSansBold", $sans-fallback;
+$font-sans-brand-light: 			"GMSansLight", $sans-fallback;
+$font-sans-brand-regularC: 			"GMSansC", $sans-fallback;
+
+$font-sans-brand-boldC: 			"GMSansCBold", $sans-fallback;
+$font-sans-brand-regularC-italic:   "GMSansCItalic", $sans-fallback;
+$font-sans-brand-boldC-italic: 		"GMSansCBoldItalic", $sans-fallback;
+
+// TGAM icon fonts
+$font-icon: 						"GMicon";
+
+
+// -----------------------------------
+// * Social Sharing *
+// -----------------------------------
+
+$facebook-colour:              	#3b579d;
+$twitter-colour:                	#2caae1;
+$email-colour:                  	#666;

@@ -1,0 +1,246 @@
+@font-face {
+  font-family: 'PrattRegular';
+  src: url('/fonts/Pratt/Pratt.otf');
+  src: local('?'), url('/fonts/Pratt/Pratt.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PrattBold';
+  src: url('/fonts/Pratt/Pratt_Bold.otf');
+  src: local('?'), url('/fonts/Pratt/Pratt_Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PrattHeavy';
+  src: url('/fonts/Pratt/Pratt_Heavy.otf');
+  src: local('?'), url('/fonts/Pratt/Pratt_Heavy.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PrattMicro';
+  src: url('/fonts/Pratt/Pratt_Micro.otf');
+  src: local('?'), url('/fonts/Pratt/Pratt_Micro.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PrattBlack';
+  src: url('../../../../media/www/fonts/pratt_black-webfont.eot');
+  src: local('?'), url('../../../../media/www/fonts/pratt_black-webfont.woff') format('woff'), url('../../../../media/www/fonts/pratt_black-webfont.ttf') format('truetype'), url('../../../../media/www/fonts/pratt_black-webfont.svg#pratt_blackregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'PrattBoldItalic';
+  src: url('../../../media/www/fonts/pratt_bolditalic-webfont.eot');
+  src: local('?'), url('../../../media/www/fonts/pratt_bolditalic-webfont.woff') format('woff'), url('../../../media/www/fonts/pratt_bolditalic-webfont.ttf') format('truetype'), url('../../../media/www/fonts/pratt_bolditalic-webfont.svg#pratt_bolditalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PrattHeavyItalic';
+  src: url('../../../media/www/fonts/pratt_heavyitalic-webfont.eot');
+  src: local('?'), url('../../../media/www/fonts/pratt_heavyitalic-webfont.woff') format('woff'), url('../../../media/www/fonts/pratt_heavyitalic-webfont.ttf') format('truetype'), url('../../../media/www/fonts/pratt_heavyitalic-webfont.svg#pratt_heavyitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PrattItalic';
+  src: url('../../../media/www/fonts/pratt-italic-webfont.eot');
+  src: local('?'), url('../../../media/www/fonts/pratt-italic-webfont.woff') format('woff'), url('../../../media/www/fonts/pratt-italic-webfont.ttf') format('truetype'), url('../../../media/www/fonts/pratt-italic-webfont.svg#pratt-italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GMSansC';
+  src: url('/fonts/GMSansC/GMsanC_Reg.otf');
+  src: local('?'), url('/fonts/GMSansC/GMsanC_Reg.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GMSansCBold';
+  src: url('/fonts/GMSansC/GMsanC_Bold.otf');
+  src: local('?'), url('/fonts/GMSansC/GMsanC_Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GMSansCBoldItalic';
+  src: url('/fonts/GMSansC/GMsanC_BoldItalic.otf');
+  src: local('?'), url('/fonts/GMSansC/GMsanC_BoldItalic.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GMSansCItalic';
+  src: url('../../../../media/www/fonts/gmsanc_italic-webfont.eot');
+  src: local('?'), url('../../../../media/www/fonts/gmsanc_italic-webfont.woff') format('woff'), url('../../../../media/www/fonts/gmsanc_talic-webfont.ttf') format('truetype'), url('../../../../media/www/fonts/gmsanc_italic-webfont.svg#gmsancitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GMSans';
+  src: url('/fonts/GM%20SANS/GMsans_Reg.otf');
+  src: local('?'), url('/fonts/GM%20SANS/GMsans_Reg.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GMSansLight';
+  src: url('/fonts/GM%20SANS/GMsans_Light.otf');
+  src: local('?'), url('/fonts/GM%20SANS/GMsans_Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GMicon';
+  src: url('/fonts/gm_global_icons.eot');
+  src: url('/fonts/gm_global_icons.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="gmicon-"], [class*=" gmicon-"] {
+	font-family: 'GMicon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.gmicon-minus:before {
+	content: "\e605";
+}
+.gmicon-plus:before {
+	content: "\e606";
+}
+.gmicon-mail:before {
+	content: "\e604";
+}
+.gmicon-printlicense:before {
+	content: "\e602";
+}
+.gmicon-whatsapp:before {
+	content: "\e603";
+}
+.gmicon-profile:before {
+	content: "\e601";
+}
+.gmicon-arrow_up:before {
+	content: "\5e";
+}
+.gmicon-google:before,
+.gmicon-googleplus:before {
+	content: "\67";
+}
+.gmicon-location:before {
+	content: "\79";
+}
+.gmicon-password:before {
+	content: "\7a";
+}
+.gmicon-unsave:before {
+	content: "\6f";
+}
+.gmicon-user:before {
+	content: "\70";
+}
+.gmicon-check:before {
+	content: "\6b";
+}
+.gmicon-arrow_right:before {
+	content: "\5d";
+}
+.gmicon-arrow_left:before {
+	content: "\5b";
+}
+.gmicon-facebook:before {
+	content: "\66";
+}
+.gmicon-linkedin:before {
+	content: "\69";
+}
+.gmicon-quote:before {
+	content: "\71";
+}
+.gmicon-star:before {
+	content: "\65";
+}
+.gmicon-twitter:before {
+	content: "\74";
+}
+.gmicon-arrow_down:before {
+	content: "\6e";
+}
+.gmicon-market:before {
+	content: "\6d";
+}
+.gmicon-marketarrow_down:before {
+	content: "\64";
+}
+.gmicon-marketarrow_up:before {
+	content: "\75";
+}
+.gmicon-sandwhichbar:before {
+	content: "\62";
+}
+.gmicon-save:before {
+	content: "\61";
+}
+.gmicon-arrows_left:before {
+	content: "\3c";
+}
+.gmicon-arrows_right:before {
+	content: "\3e";
+}
+.gmicon-chart:before {
+	content: "\63";
+}
+.gmicon-maple_leaf:before {
+	content: "\6c";
+}
+.gmicon-search:before {
+	content: "\73";
+}
+.gmicon-share:before {
+	content: "\68";
+}
+.gmicon-lock:before {
+	content: "\e600";
+}
+.gmicon-slideshow:before {
+	content: "\77";
+}
+.gmicon-update:before {
+	content: "\72";
+}
+.gmicon-video:before {
+	content: "\76";
+}
+.gmicon-x:before {
+	content: "\78";
+}

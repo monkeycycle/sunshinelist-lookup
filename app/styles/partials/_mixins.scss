@@ -1,0 +1,70 @@
+// -----------------------------------
+// * Media Queries *
+// -----------------------------------
+// Breakpoints
+// min-widths
+$breakpoint-xs:     0;   // mobile small (to 400px)
+$breakpoint-sm:     414px;   // mobile large & portrait tablets (to 767px)
+$breakpoint-md:     768px;   // tablets landscape & desktops (to 1199px)
+$breakpoint-lg:     1024px;  // desktops large
+$breakpoint-xl:     1260px;  // desktops large
+
+$breakpoint-iPhone5:     320px;
+$breakpoint-iPhone6:     375px;
+
+// xs is default; mobile first
+@mixin breakpoint($class) {
+  @if $class == iphone5 {
+    @media (min-width: $breakpoint-iPhone5) { @content; }
+  }
+  @else if $class == iphone6 {
+    @media (min-width: $breakpoint-iPhone6) { @content; }
+  }
+  @else if $class == sm {
+    @media (min-width: $breakpoint-sm) { @content; }
+  }
+  @else if $class == md {
+    @media (min-width: $breakpoint-md) { @content; }
+  }
+  @else if $class == lg {
+    @media (min-width: $breakpoint-lg) { @content; }
+  }
+  @else if $class == xl {
+    @media (min-width: $breakpoint-xl) { @content; }
+  }
+  @else {
+    @warn "Breakpoints must be: sm, md, lg";
+  }
+}
+
+// -----------------------------------
+// * Typography *
+// -----------------------------------
+
+@mixin fontSize($size){
+  font-size: $size + px;
+}
+
+@mixin letterSpacing($spacing){
+  letter-spacing: $spacing + px;
+}
+
+@mixin lineHeight($height){
+  line-height: $height;
+}
+
+@mixin adjustType($size,$height){
+  font-size: $size + px;
+  // letter-spacing: $spacing + px;
+  line-height: $height;
+}
+
+// -----------------------------------
+// * Misc *
+// -----------------------------------
+
+// background colour w/opacity
+@mixin background-rgba($red: 0, $green: 0, $blue: 0, $alpha: 0.5){
+    background-color: rgb($red, $green, $blue);
+    background-color: rgba($red, $green, $blue, $alpha);
+}
